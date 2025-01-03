@@ -1,0 +1,152 @@
+ running on   20 total cores
+ distrk:  each k-point on   20 cores,    1 groups
+ distr:  one band on   10 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build May 23 2017 16:08:52) complex          
+  
+ POSCAR found type information on POSCAR  Y  Sb Te
+ POSCAR found :  3 types and     135 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+  number of k-points has changed, file:    14 present:     5
+  trying to continue reading WAVECAR, but it might fail
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ charge-density read from file: unknown                                 
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.535144330959E+03   -0.53514E+03   -0.81264E-04  5384   0.465E-02
+RMM:   2    -0.535144334041E+03   -0.30821E-05   -0.30822E-05  6409   0.630E-03
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     27
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     63
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     67
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     70
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3     99
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    106
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    111
+ num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    226
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     72
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    100
+ num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    227
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     38
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     42
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     54
+ num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    225
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     51
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     52
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     67
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     75
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    109
+ num prob  num prob RMM:   3    -0.535144334015E+03    0.26477E-07   -0.42616E-06  9165   0.159E-03
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     33
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     78
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    146
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    204
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    229
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    232
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    234
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    236
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    225
+ num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    232
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    234
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    231
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    187
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    218
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    221
+ num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    227
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    233
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     19
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     76
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    235
+RMM:   4    -0.535144334023E+03   -0.88185E-08   -0.27521E-07  6174   0.435E-04
+ num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     98
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    109
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    126
+ num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    138
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    139
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    141
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    199
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    212
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    215
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    229
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    232
+ num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3     94
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     93
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    129
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    130
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    205
+ num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    221
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    227
+ num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    234
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    237
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    105
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    126
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    127
+ num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    135
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    140
+ num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    142
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    203
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    205
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    206
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    209
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    227
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    234
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     14
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     15
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    115
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    116
+ num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    123
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    138
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    196
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    198
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    203
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    205
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    208
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    212
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    226
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    230
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    233
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4     86
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    110
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    127
+ num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    137
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    138
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    143
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    205
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    206
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    209
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    210
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    211
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    213
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    229
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4    231
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    234
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3    237
+RMM:   5    -0.535144334022E+03    0.18481E-08   -0.34216E-08  4567   0.294E-04
+   1 F= -.58837481E+03 E0= -.58837481E+03  d E =0.000000E+00

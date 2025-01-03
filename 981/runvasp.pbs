@@ -1,0 +1,23 @@
+#PBS -N vasp
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=480:00:00
+#PBS -q batch
+#PBS -V
+#PBS -S /bin/bash
+
+source /opt/intel/composer_xe_2015/bin/compilervars.sh intel64
+source /opt/intel/mkl/bin/intel64/mklvars_intel64.sh
+source /opt/intel/impi/5.0.2.044/bin64/mpivars.sh
+
+NP=`cat $PBS_NODEFILE | wc -l`
+NN=`cat $PBS_NODEFILE | sort | uniq | tee /tmp/nodes.$$ | wc -l`
+
+cat $PBS_NODEFILE > /tmp/nodefile.$$
+cd $PBS_O_WORKDIR
+ulimit -s unlimited
+
+EXEC=/opt/vasp/vasp5.4.4/vasp_std
+# EXEC=/opt/vasp/vasp5.4.4/vasp_gam
+# EXEC=/opt/vasp/vasp5.4.4/vasp_fix_z
+
+mpirun -machinefile $PBS_NODEFILE -np $NP $EXEC > output
